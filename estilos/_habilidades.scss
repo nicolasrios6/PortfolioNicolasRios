@@ -1,0 +1,27 @@
+main{
+    div{
+        div{
+            div{
+                .skill-item{
+                    width: 200px;
+                    height: 200px;
+                    background-color: #1b141e;
+                    color: #fff;
+                    border-radius: 20px;
+
+                    h5:hover{
+                        color: $colorDefault;
+                    }
+
+                    i{
+                        font-size: 8em;
+                    }
+
+                    i:hover{
+                        color: $colorDefault;
+                    }
+                }
+            }
+        }
+    }
+}

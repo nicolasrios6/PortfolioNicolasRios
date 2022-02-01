@@ -1,0 +1,96 @@
+@import "variables";
+@import "habilidades";
+@import "proyectos";
+@import"contacto";
+
+
+*{
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+//header
+
+header{
+    nav{
+        div{
+            p{
+                span{
+                    color: $colorDefault;
+                }
+            }
+
+            .btn-bg{
+                background-color: $colorDefault;
+            }
+        }
+    }
+}
+
+//main
+
+main{
+    div{
+        div{
+            div{
+                h1{
+                    color: $colorDefault;
+                }
+
+                .btn{
+                    background-color: $colorDefault;
+                    color: #fff;
+                }
+            }
+
+            div{
+                img{
+                    @media (min-width:0px) and (max-width: 576px) {
+                        width:90%;   
+                    }
+
+                    @media (min-width:577px) and (max-width:768px) {
+                        width:80%;
+                    }
+
+                    @media (min-width:768px) and (max-width:992px) {
+                        width: 60%;
+                    }
+
+                    @media (min-width:993px) and (max-width:1200px) {
+                        width: 100%;
+                    }
+
+                    @media (min-width:1201px) and (max-width:1400px) {
+                        width: 100%;
+                    }
+
+                    @media (min-width:1401px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//footer
+
+footer{
+    div{
+        div{
+            div{
+                .iconos{
+                    color: $colorDefault;
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+}
